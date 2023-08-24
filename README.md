@@ -19,5 +19,7 @@ import android.webkit.WebView;
 setContentView(R.layout.activity_main);
         WebView webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("your link");
+        webView.loadUrl("<MY_LINK>");
 ```
+
+and we will have to replace <MY_LINK> with the link we want to which the application redirects us, for example: https://www.facebook.com/, https://www.youtube.com/, https://www.google.com/, etc.

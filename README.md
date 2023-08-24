@@ -14,3 +14,10 @@ We need to add this code to the file: *hbox-android000011-ramixter* $\rightarrow
 ```java
 import android.webkit.WebView;
 ```
+
+```java
+setContentView(R.layout.activity_main);
+        WebView webView = (WebView) findViewById(R.id.webview);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadUrl("your link");
+```
